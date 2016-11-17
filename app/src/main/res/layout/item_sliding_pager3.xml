@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--展示界面-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/home">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="0dp"
+        android:background="#ffffff">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="马丁木吉他"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:textStyle="italic"
+            android:background="@drawable/shading_reco"
+            android:id="@+id/label"/>
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/reco_guitar"
+            android:id="@+id/b_img"
+            android:background="#fff"/>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:gravity="bottom|end"
+            android:src="@drawable/reco_guitar"
+            android:id="@+id/price5"
+            android:text="$199"
+            android:textColor="#ff0000"
+            android:layout_above="@+id/buy"
+            android:layout_alignParentEnd="true" />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/buy"
+            android:text="查看物流"
+            android:elevation="10dp"
+            android:layout_alignEnd="@+id/price5"
+            android:layout_alignBottom="@+id/b_img" />
+    </RelativeLayout>
+</RelativeLayout>

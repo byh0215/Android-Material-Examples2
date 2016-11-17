@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <TableLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/loginForm"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="10pt"
+            android:text="地址:"/>
+    <!-- 输入用户名的文本框 -->
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:selectAllOnFocus="true"
+        android:hint="请填写新的地址"
+        android:id="@+id/new_po"/>
+    </TableRow>
+</TableLayout>

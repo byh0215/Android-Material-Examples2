@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TableLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/loginForm"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="10pt"
+            android:text="账号：" />
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:selectAllOnFocus="true"
+            android:hint="请输入账号"
+            android:id="@+id/user"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="10pt"
+            android:text="密码:"/>
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:hint="请输入密码"
+            android:inputType="numberPassword"
+            android:id="@+id/pw"/>
+    </TableRow>
+</TableLayout>
